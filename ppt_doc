@@ -22,6 +22,7 @@
     * The sarcomere is the fundamental contractile unit of striated muscle, including the heart.
     * It's composed of thick filaments (**myosin**) and thin filaments (**actin**) that slide past each other to generate force.
     * Titin acts as the crucial third filament system, providing structure and elasticity.
+* *[Use Figure 1a from TTN_Sacromere_Structure.pdf to clearly label titin, actin, and myosin.]*
 
 ### **Slide 4: Titin's Role and Key Domains**
 * **Topic:** Explaining the different bands and Titin's function across them.
@@ -31,6 +32,7 @@
     * **I-band:** The elastic region, acting as a molecular spring that generates passive tension when the muscle is stretched. This region undergoes extensive **alternative splicing** to create different isoforms.
     * **A-band:** An inextensible, stable region that acts as a scaffold for the thick (myosin) filament.
     * **M-band:** The center of the sarcomere, involved in structural integrity and signaling.
+* *[Insert Figure 1b from TTN_Sacromere_Structure.pdf to map the Z-disc, I-band (including PEVK), A-band, and M-band onto the titin protein.]*
 
 ---
 
@@ -55,13 +57,14 @@
     * TTNtv are responsible for up to **25% of familial DCM cases**.
     * Our goal is to build a reliable framework for curating these specific variants in this specific disease context.
 
-### **Slide 7: Disease Mechanism: It's All About Haploinsufficiency**
+### **Slide 7: Primary Disease Mechanism: Haploinsufficiency via NMD**
 * **Topic:** Explaining the primary molecular cause of disease.
 * **Key Points:**
     * The leading mechanism for TTNtv-induced DCM is **haploinsufficiency**.
     * The cell identifies the premature stop codon in the mutant mRNA and destroys it via **Nonsense-Mediated Decay (NMD)**.
     * This prevents a truncated "poison peptide" from being made but leaves the cell with only one functional copy of the TTN gene.
     * The resulting ~50% reduction in full-length titin protein is insufficient for long-term cardiac health, especially under stress.
+    * However, a dominant negative or "poison peptide" effect remains a possibility, especially for variants in the distal A-band that might escape NMD and produce a truncated protein.
 
 ---
 
@@ -77,7 +80,7 @@
 * **Supporting Quotes:**
     * "This showed that TTNtv in constitutive exons (PSI > 90%) are significantly associated with DCM irrespective of their position in TTN".
     * "Variants encoded in exons that are not spliced into titin isoforms expressed in the heart (non-cardiac exons with ‘Percent Spliced In’ (PSI) < 15%) are not associated with DCM".
-* *[Insert graph from Schafer et al. (TTN_PSI_15Percent.pdf, Figure 2a) showing PSI scores across the gene.]*
+* *[Insert graph from Schafer et al. (TTN_PSI_15Percent.pdf, Figure 2a) showing PSI scores across the gene—highlight the top panel to emphasize the dramatic variation.]*
 
 ### **Slide 9: Principle 2: Pathogenicity Strength is Modulated by Protein Domain Location**
 * **Action:** For variants with PSI > 90%, identify the protein domain.
@@ -88,7 +91,7 @@
 * **Supporting Quotes:**
     * "...A-band and distal I-band TTNtv have higher ORs than variants in other TTN domains, for reasons that remain unclear".
     * "TTNtv in Z-disc exons were also associated with DCM, although with a much lower odds ratio (OR: 5.3) than A-band TTNtv (OR: 49.8)".
-* *[Insert Table 1 from Schafer et al. (TTN_PSI_15Percent.pdf) showing Odds Ratios by domain.]*
+* *[Insert Table 1 from Schafer et al. (TTN_PSI_15Percent.pdf) and highlight the "OR" and "P-value" columns to underscore the dramatic difference between the A-band and other regions.]*
 
 ### **Slide 10: Principle 3: Specific Isoform Expression Must Be Considered**
 * **Action:** For variants with PSI between 15-90%, check which cardiac isoforms are affected.
@@ -99,6 +102,8 @@
 * **Supporting Quotes:**
     * "TTNtv targeting both N2B and N2BA isoforms were more strongly associated (odds ratio: 19) with DCM compared to TTNtv observed only in the N2BA isoform (odds ratio: 3.8)".
     * "...variants encoded in exons that only incorporate into the N2BA and not into the N2B isoform have weak associations with disease".
+
+* *[Insert Figure 2B from TTN_Define_I_Band.pdf to illustrate the shorter, stiffer N2B isoform versus the longer, more compliant N2BA isoform.]*
 
 ### **Slide 11: Principle 4: Pathogenicity is Influenced by Cellular Response Mechanisms**
 * **Action:** Understand the molecular consequences of the truncation.
@@ -112,7 +117,7 @@
     * "It is possible that the A-band TTNtv escape nonsense-mediated decay, which results in the incorporation of truncated TTN into the sarcomere, thereby disturbing various functions, signaling, and protein-protein interactions, and inducing the DCM phenotype via dominant negative mechanisms".
     * "Ribosomal profiling in rat revealed the translational footprint of premature stop codons in Ttn, TTNtv position-independent nonsense-mediated degradation of the mutant allele...".
     * "It has been proposed that a distal internal promoter of the Cronos TTN isoform...can rescue proximal TTNtv effect. However, we found that proximal TTNtv are also penetrant and associated with DCM".
-* *[Insert Figure 1c/d/e from Schafer et al. (TTN_PSI_15Percent.pdf) showing ribosome profiling and stop codon read-through.]*
+* *[Insert Figure 1 from Schafer et al. (TTN_PSI_15Percent.pdf)—focus on panels (c) and (d) to show ribosome occupancy stopping abruptly after the premature stop codon as evidence for NMD.]*
 
 ### **Slide 12: Principle 5: Clinical Penetrance Often Requires a 'Second Hit' (Genetic or Environmental)**
 * **Action:** Place the variant in a clinical context of risk.
@@ -129,6 +134,8 @@
     * "This leads us to believe that contributions from etiological factors other than TTNtv precipitate towards a DCM phenotype in the background of genetic stress (i.e., TTNtv), and that the required additional stress for the DCM to emerge means that TTN insufficiency alone is unlikely to be the sole cause of DCM".
     * "It will be interesting to see what other environmental triggers for DCM (e.g. alcohol, viral infection or chemotherapy) combine with TTNtv to cause disease...".
 * **Clinical Implication:** This explains why a TTNtv can be present in a healthy parent but cause severe DCM in a child who encounters an additional stressor.
+
+* *[Include Figure 4c–e from Schafer et al. (TTN_PSI_15Percent.pdf) to show heart volume and shape differences in asymptomatic TTNtv carriers.]*
 
 ---
 
@@ -158,12 +165,13 @@
 ### **Slide 15: Brief Discussion: Autosomal Recessive (AR) Titinopathy**
 * **Topic:** Expanding the scope beyond AD DCM.
 * **Key Points:**
-    * TTNtv can also cause **recessive** myopathies.
+    * TTNtv can also cause **recessive** myopathies, typically presenting as congenital myopathy or limb-girdle muscular dystrophy.
     * Curation follows standard ACMG/AMP guidelines for AR conditions, requiring **two variants in trans**.
     * **Key Considerations:**
         * The same principles of **PSI score** and **domain location** still apply.
         * **Tissue-specific expression** is critical. A variant may be in a cardiac-constitutive exon but a skeletal muscle-excluded exon, explaining a cardiac-only phenotype.
         * The clinical phenotype is often a myopathy, sometimes with cardiac involvement.
+    * Recognizing whether the presentation is DCM or skeletal myopathy helps guide interpretation.
 
 ### **Slide 16: Summary & Key Takeaways**
 * TTNtv curation is a multi-step process: **PSI -> Domain -> Isoform -> Mechanism -> Clinical Context**.
