@@ -15,6 +15,7 @@
     * It's a massive gene with 364 exons, making it a hotspot for genetic variation.
     * Mutations in TTN are the most common genetic cause of **Dilated Cardiomyopathy (DCM)**.
     * However, interpreting TTN variants is challenging due to high background variation in the general population.
+    * **Population Frequency:** TTNtv, 15–20% of DCM; ~1% of the general population overall; ~0.5% when restricted to cardiac exons (PSI>15%).
 
 ### **Slide 3: The Sarcomere: The Heart's Engine Room**
 * **Topic:** The basic structure of the sarcomere.
@@ -89,9 +90,9 @@
 
 ### **Slide 9: Principle 2: Pathogenicity Strength is Modulated by Protein Domain Location**
 * **Action:** For variants with PSI > 90%, identify the protein domain.
-* **Guideline:** Not all truncations in constitutive exons are equal. The odds of a variant being associated with DCM are much higher in certain domains, justifying a stronger application of pathogenicity criteria for these "hotspot" regions. Variants in the A-band and the distal portion of the I-band carry the greatest risk.
+* **Guideline:** Not all truncations in constitutive exons are equal. The odds of a variant being associated with DCM are much higher in certain domains, justifying a stronger application of pathogenicity criteria for these "hotspot" regions. Variants in the A-band and the distal portion of the I-band (adjacent to the A-band) carry the greatest risk.
     * **Highest Risk – A-band:** Truncating variants have an odds ratio of nearly 50 for being associated with DCM.
-    * **High Risk – Distal I-band:** Odds ratios range from 19.5 to 32.0.
+    * **High Risk – Distal I-band:** Refers to the portion of the I-band closest to the A-band; literature distinguishes pre- and post-Cronos promoter regions, both with high odds ratios (19.5–32.0).
     * **Lower Risk – Z-disc & M-band:** Still associated with DCM but with much lower odds ratios (5.3 and 3.7, respectively).
 * **Supporting Quotes:**
     * "...A-band and distal I-band TTNtv have higher ORs than variants in other TTN domains, for reasons that remain unclear".
@@ -114,8 +115,8 @@
 * **Action:** Understand the molecular consequences of the truncation.
 * **Guideline:** The ultimate clinical effect of a TTNtv is influenced by the cell's response to the premature stop codon, primarily through Nonsense-Mediated Decay (NMD), but also through potential rescue mechanisms like internal promoters. While most TTNtv are thought to cause disease through haploinsufficiency, the variant's position can influence this outcome.
 * **Details:**
-    * **Nonsense-Mediated Decay (NMD):** The primary cellular response to a TTNtv is to degrade the faulty mRNA transcript. This process, called NMD, is position-independent and prevents the synthesis of a truncated protein, supporting haploinsufficiency as the main disease mechanism.
-    * **Potential for NMD Escape:** It is hypothesized that variants located in the distal A-band might escape NMD. This could allow a truncated protein to be incorporated into the sarcomere, causing a dominant negative effect.
+    * **Nonsense-Mediated Decay (NMD):** The primary cellular response to a TTNtv is to degrade the faulty mRNA transcript. This process, called NMD, is position-independent (observed in rat models) and prevents the synthesis of a truncated protein, supporting haploinsufficiency as the main disease mechanism.
+    * **Dominant-negative effects?** Some have hypothesized that distal A-band variants might escape NMD and yield truncated titin, but position-independent NMD data suggest truncated TTN accumulation is unlikely; dominant-negative effects, if present, would be exceptional.
     * **Internal Promoter Rescue (Cronos):** An internal promoter within the TTN gene, "Cronos," can initiate transcription downstream of some proximal mutations. While this could theoretically rescue the effect of a proximal truncation, studies confirm that these variants remain penetrant and are still significantly associated with DCM.
 * **Supporting Quotes:**
     * "...the majority of truncated transcripts are degraded by the cell via nonsense-mediated mRNA decay (NMD), which is thought to rescue dominant negative effects of truncated proteins, but leaves the cells in a haploinsufficient state which can also lead to the disease phenotype".
@@ -128,12 +129,13 @@
 * **Action:** Place the variant in a clinical context of risk.
 * **Guideline:** The presence of a high-risk TTNtv alone may not be sufficient to cause overt DCM. The clinical manifestation and severity are often influenced by secondary genetic modifiers or environmental stressors.
 * **Details:**
-    * **Incomplete Penetrance and Subclinical Effects:** These variants are found in approximately 1% of the general population, often without causing apparent disease. However, in healthy individuals they are associated with measurable subclinical changes, such as eccentric cardiac remodeling. This suggests the heart is in a compensated state, making it vulnerable to additional stress.
+    * **Incomplete Penetrance and Subclinical Effects:** These variants are found in ~1% of the general population, and ~0.5% carry TTNtv in cardiac exons (PSI>15%) without DCM. However, in healthy individuals they are associated with measurable subclinical changes, such as eccentric cardiac remodeling. This suggests the heart is in a compensated state, making it vulnerable to additional stress.
     * **The Role of Stressors:** Animal models and clinical observations show that a "second hit" or stressor can unmask the pathogenic effect of a TTNtv and precipitate a DCM phenotype. The heart harboring a TTNtv is already under metabolic stress and may be inflexible to further stress.
     * **Identified Triggers:** Specific environmental triggers can interact with a TTNtv to cause disease.
         * **Pregnancy:** There is a "shared genetic predisposition" between peripartum cardiomyopathy and DCM, with TTNtv being a common factor.
         * **Chemotherapy:** TTNtv have been reported in patients who developed DCM after receiving anthracyclines.
         * **Other Factors:** Other potential triggers mentioned include alcohol, viral infections, or additional genetic factors.
+* *[Visual Idea: Use a balance scale graphic with "TTNtv" on one side and a "Second Hit" on the other tipping the scale toward DCM.]*
 * **Supporting Quotes:**
     * "The observation that hearts harboring TTNtv are already alerted with metabolic stress signaling, and that a further increase in metabolic stress might not be compensatable, is consistent with the age-induced onset of DCM in TTNtv-positive individuals".
     * "This leads us to believe that contributions from etiological factors other than TTNtv precipitate towards a DCM phenotype in the background of genetic stress (i.e., TTNtv), and that the required additional stress for the DCM to emerge means that TTN insufficiency alone is unlikely to be the sole cause of DCM".
@@ -173,12 +175,12 @@
 * **Key Points:**
     * CardioDB is a valuable resource for TTN curation.
     * It integrates PSI scores, domain information, and isoform data.
-    * *[User to insert screenshots and a brief tutorial on how to look up a TTN variant, find its exon, and check the relevant PSI/domain data within the tool.]*
+    * *[Insert live demo CardioDB screenshots and a brief tutorial on how to look up a TTN variant, find its exon, and check the relevant PSI/domain data within the tool.]*
 
-### **Slide 16: A Practical PVS1 Strength Map for TTN**
-* **Topic:** Sharing your self-made PVS1 strength mapping table.
-* **Guideline:** Proposing a framework to apply PVS1 (Pathogenic Very Strong 1) evidence with varying strength based on location and PSI.
-* **Example Table:**
+### **Slide 16: Proposed PVS1 Strength Map for TTN (Heuristic)**
+* **Topic:** Presenting a heuristic PVS1 strength mapping table anchored to PSI and region, supported by odds ratios.
+* **Guideline:** Proposing a framework to apply PVS1 (Pathogenic Very Strong 1) evidence with varying strength based on location, PSI, and published odds ratios.
+* **Proposed Table:**
 | Exon Location | PSI Score | Proposed PVS1 Strength | Rationale |
 |:--- |:--- |:--- |:--- |
 | A-band | > 90% | PVS1_VeryStrong | Extremely high OR, potential dominant negative effect. |
