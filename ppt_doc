@@ -47,6 +47,7 @@
         * Hereditary Myopathy with Early Respiratory Failure (HMERF): **Definitive** evidence.
         * Arrhythmogenic Cardiomyopathy (ACM/ARVC): **Strong** evidence.
         * Hypertrophic Cardiomyopathy (HCM): **Limited** evidence.
+            * "In comparison to other plausible etiologies of HCM, the presence of the TTN gene mutations exhibits a relatively low ranking."
     * *[User to add specific details from ClinGen or other relevant databases as needed.]*
 
 ### **Slide 6: Scope of This Talk: TTNtv in AD DCM**
@@ -138,7 +139,22 @@
 
 * *[Include Figure 4c–e from Schafer et al. (TTN_PSI_15Percent.pdf) to show heart volume and shape differences in asymptomatic TTNtv carriers.]*
 
-### **Slide 13: Case Study: Applying the Framework**
+### **Slide 13: Putting It All Together: A Curation Flowchart**
+* **Topic:** Visual guide to the TTNtv curation process.
+* **Flowchart Steps:**
+    * **Start:** TTN truncating variant identified.
+    * **Step 1:** Check PSI score.
+        * **If < 15%:** Benign for AD DCM. **Stop.**
+        * **If ≥ 15%:** Proceed to Step 2.
+    * **Step 2:** Determine domain & PSI strength.
+        * **A-Band (PSI > 90%):** Apply **PVS1_VeryStrong**.
+        * **Distal I-Band (PSI > 90%):** Apply **PVS1_Strong**.
+        * **Proximal I/Z/M (PSI > 90%):** Apply **PVS1_Moderate**.
+        * **Any (15-90% PSI):** Apply **PVS1_Supporting** & check isoforms.
+    * **Step 3:** Integrate clinical context (e.g., family history, second hits).
+    * **End:** Final classification.
+
+### **Slide 14: Case Study: Applying the Framework**
 * **Topic:** Demonstrate the application of the 5 principles.
 * **Examples:**
     * **Example 1:** A frameshift in an A-band exon with PSI of 98%. (Application: **PVS1_VeryStrong** -> Likely Pathogenic/Pathogenic).
@@ -149,14 +165,14 @@
 
 ## **Section 4: Practical Tools & Future Directions**
 
-### **Slide 14: Tools for Curation: CardioDB**
+### **Slide 15: Tools for Curation: CardioDB**
 * **Topic:** Introducing a practical tool for TTN variant analysis.
 * **Key Points:**
     * CardioDB is a valuable resource for TTN curation.
     * It integrates PSI scores, domain information, and isoform data.
     * *[User to insert screenshots and a brief tutorial on how to look up a TTN variant, find its exon, and check the relevant PSI/domain data within the tool.]*
 
-### **Slide 15: A Practical PVS1 Strength Map for TTN**
+### **Slide 16: A Practical PVS1 Strength Map for TTN**
 * **Topic:** Sharing your self-made PVS1 strength mapping table.
 * **Guideline:** Proposing a framework to apply PVS1 (Pathogenic Very Strong 1) evidence with varying strength based on location and PSI.
 * **Example Table:**
@@ -170,7 +186,7 @@
 | Any | < 15% | Not Applicable (Benign) | No disease association. |
 * **Disclaimer:** This heuristic map is for educational discussion only and requires formal clinical validation before clinical use.
 
-### **Slide 16: Brief Discussion: Autosomal Recessive (AR) Titinopathy**
+### **Slide 17: Brief Discussion: Autosomal Recessive (AR) Titinopathy**
 * **Topic:** Expanding the scope beyond AD DCM.
 * **Key Points:**
     * TTNtv can also cause **recessive** myopathies, typically presenting as congenital myopathy or limb-girdle muscular dystrophy.
@@ -181,11 +197,11 @@
         * The clinical phenotype is often a myopathy, sometimes with cardiac involvement.
     * Recognizing whether the presentation is DCM or skeletal myopathy helps guide interpretation.
 
-### **Slide 17: Summary & Key Takeaways**
+### **Slide 18: Summary & Key Takeaways**
 * TTNtv curation is a multi-step process: **PSI -> Domain -> Isoform -> Mechanism -> Clinical Context**.
 * **A-band** truncations in **constitutive exons** carry the highest risk for AD DCM.
 * The primary mechanism is **haploinsufficiency**, but clinical expression often requires a **"second hit."**
 * Use tools like CardioDB and a structured PVS1 framework to ensure consistent curation.
 
-### **Slide 18: Q&A**
+### **Slide 19: Q&A**
 * **Open the floor for questions.**
