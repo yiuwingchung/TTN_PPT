@@ -44,10 +44,13 @@
     * TTN variants are associated with a wide range of muscle disorders, collectively known as "titinopathies."
     * **ClinGen Gene-Disease Validity:**
         * Dilated Cardiomyopathy (DCM): **Definitive** evidence.
-        * Hereditary Myopathy with Early Respiratory Failure (HMERF): **Definitive** evidence.
-        * Arrhythmogenic Cardiomyopathy (ACM/ARVC): **Strong** evidence.
+        * Haploinsufficiency for DCM (HI=3): **Sufficient** evidence.
+        * Autosomal Recessive TTN-related myopathy: **Definitive** evidence.
+        * Tibial muscular dystrophy (AD): **Moderate** evidence.
+        * Myopathy, myofibrillar, 9, with early respiratory failure (AD HMERF): **Moderate** evidence.
         * Hypertrophic Cardiomyopathy (HCM): **Limited** evidence.
             * "In comparison to other plausible etiologies of HCM, the presence of the TTN gene mutations exhibits a relatively low ranking."
+        * Arrhythmogenic right ventricular cardiomyopathy (ARVC): **Limited** evidence.
     * *[User to add specific details from ClinGen or other relevant databases as needed.]*
 
 ### **Slide 6: Scope of This Talk: TTNtv in AD DCM**
