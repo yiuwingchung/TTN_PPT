@@ -69,7 +69,7 @@
     * The cell identifies the premature stop codon in the mutant mRNA and destroys it via **Nonsense-Mediated Decay (NMD)**.
     * This prevents a truncated "poison peptide" from being made but leaves the cell with only one functional copy of the TTN gene.
     * The resulting ~50% reduction in full-length titin protein is insufficient for long-term cardiac health, especially under stress.
-    * However, a dominant negative or "poison peptide" effect remains a possibility, especially for variants in the distal A-band that might escape NMD and produce a truncated protein.
+    * However, a dominant negative or "poison peptide" effect remains a hypothesis, mainly for variants in the distal A-band that might escape NMD; ribosome profiling supports position-independent NMD and argues against widespread dominant-negative incorporation.
 
 ---
 
@@ -80,9 +80,9 @@
 * **Guideline:** This principle acts as the foundational step for curation.
     * Variants are stratified into three categories based on their PSI score, which directly correlates with their likelihood of being pathogenic for Dilated Cardiomyopathy (DCM).
     * **High-Risk (PSI > 90%):** Variants in "constitutive" exons, which are included in over 90% of cardiac titin transcripts, are considered highly likely to be pathogenic.
-    * **No-Risk (PSI < 15%):** Variants in "non-cardiac" exons, included in less than 15% of transcripts, are not associated with DCM and should be considered benign in this context.
+    * **Not associated with AD-DCM (PSI < 15%):** Variants in "non-cardiac" exons, included in less than 15% of transcripts, are not associated with DCM in this phenotype.
     * **Intermediate-Risk (15% < PSI < 90%):** Variants in exons with intermediate PSI scores have a weaker, but still potential, association with disease and require further evaluation.
-* **Curation Note:** A PSI score below **15%** allows you to confidently exclude applying the **PVS1** criterion for a DCM phenotype.
+* **Curation Note:** A PSI score below **15%** indicates the exon is not associated with AD-DCM, so **PVS1** should not be applied.
 * **Supporting Quotes:**
     * "This showed that TTNtv in constitutive exons (PSI > 90%) are significantly associated with DCM irrespective of their position in TTN".
     * "Variants encoded in exons that are not spliced into titin isoforms expressed in the heart (non-cardiac exons with ‘Percent Spliced In’ (PSI) < 15%) are not associated with DCM".
@@ -149,9 +149,9 @@
 * **Flowchart Steps:**
     * **Start:** TTN truncating variant identified.
     * **Step 1:** Check PSI score.
-        * **If < 15%:** Benign for AD DCM. **Stop.**
+        * **If < 15%:** Not associated with AD-DCM; do not apply **PVS1**. **Stop.**
         * **If ≥ 15%:** Proceed to Step 2.
-    * **Step 2:** Determine domain & PSI strength.
+    * **Step 2:** Determine domain & PSI strength (evidence strength modulated by PSI + region; A-band strongest).
         * **A-Band (PSI > 90%):** Apply **PVS1_VeryStrong**.
         * **Distal I-Band (PSI > 90%):** Apply **PVS1_Strong**.
         * **Proximal I/Z/M (PSI > 90%):** Apply **PVS1_Moderate**.
@@ -163,7 +163,7 @@
 * **Topic:** Demonstrate the application of the 5 principles.
 * **Examples:**
     * **Example 1:** A frameshift in an A-band exon with PSI of 98%. (Application: **PVS1_VeryStrong** -> Likely Pathogenic/Pathogenic).
-    * **Example 2:** A nonsense variant in an I-band exon with PSI of 12%. (Application: **PSI < 15%** -> Likely Benign for DCM).
+    * **Example 2:** A nonsense variant in an I-band exon with PSI of 12%. (Application: **PSI < 15%** -> Not associated with AD-DCM; PVS1 not applied).
     * **Example 3:** A frameshift in a proximal I-band exon with PSI of 95% in an asymptomatic father, but present in his son who developed DCM after a viral illness. (Application: **PVS1_Moderate + Second Hit** -> Likely Pathogenic, explaining incomplete penetrance).
 
 ---
@@ -183,12 +183,12 @@
 * **Proposed Table:**
 | Exon Location | PSI Score | Proposed PVS1 Strength | Rationale |
 |:--- |:--- |:--- |:--- |
-| A-band | > 90% | PVS1_VeryStrong | Extremely high OR, potential dominant negative effect. |
+| A-band | > 90% | PVS1_VeryStrong | Extremely high OR, hypothesized dominant negative effect. |
 | Distal I-band | > 90% | PVS1_Strong | High OR. |
 | Proximal I-band | > 90% | PVS1_Moderate | Significant OR, but lower than A/distal I-band. |
 | Z-disc / M-band | > 90% | PVS1_Moderate | Significant but lowest OR for constitutive exons. |
 | Any | 15-90% | PVS1_Supporting | Weaker association; requires isoform analysis. |
-| Any | < 15% | Not Applicable (Benign) | No disease association. |
+| Any | < 15% | Not Applicable | Not associated with AD-DCM. |
 * **Disclaimer:** This heuristic map is for educational discussion only and requires formal clinical validation before clinical use.
 
 ### **Slide 17: Brief Discussion: Autosomal Recessive (AR) Titinopathy**
