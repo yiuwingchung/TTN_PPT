@@ -36,7 +36,7 @@
     * **I-band:** The elastic region, acting as a molecular spring that generates passive tension when the muscle is stretched. This region undergoes extensive **alternative splicing** to create different isoforms.
     * **A-band:** An inextensible, stable region that acts as a scaffold for the thick (myosin) filament.
     * **M-band:** The center of the sarcomere, involved in structural integrity and signaling.
-* *[Use Figure 1 from TTN_Sacromere_Structure.pdf to show the sarcomere and map titin domains from Z-disc to M-line.]*
+* *[Use Figure 1 from TTN_Sacromere_Structure.pdf; color-code titin domains by risk—A-band red (highest), distal I-band orange (high), proximal I-band/Z-disc/M-band yellow (moderate)—to precondition the audience for domain-specific risk discussed on Slide 9.]*
 
 ---
 
@@ -92,6 +92,7 @@
     * "...A-band and distal I-band TTNtv have higher ORs than variants in other TTN domains, for reasons that remain unclear".
     * "TTNtv in Z-disc exons were also associated with DCM, although with a much lower odds ratio (OR: 5.3) than A-band TTNtv (OR: 49.8)".
 * *[Insert Table 1 from Schafer et al. (TTN_PSI_15Percent.pdf) and highlight the "OR" and "P-value" columns to underscore the dramatic difference between the A-band and other regions.]*
+* **Speaker Note:** A key question is why the A-band is a hotspot. While not fully understood, one hypothesis is that truncations here disrupt the thick myosin filament interaction and are less tolerated than those in the elastic I-band. However, the primary evidence remains the strong statistical association observed.
 
 ### **Slide 10: Principle 3: Specific Isoform Expression Must Be Considered**
 * **Action:** For variants with PSI between 15-90%, check which cardiac isoforms are affected.
@@ -126,7 +127,7 @@
     * **Subclinical evidence:** Asymptomatic TTNtv carriers often show measurable eccentric cardiac remodeling on cardiac MRI.
     * **Known clinical triggers:** DCM onset has been linked to stressors like pregnancy (peripartum cardiomyopathy) and chemotherapy (anthracyclines) in TTNtv carriers.
     * **Other factors:** Additional triggers under investigation include alcohol, viral infections, or extra genetic modifiers.
-* *[Visual Idea: Use a balance scale graphic with "TTNtv" on one side and a "Second Hit" on the other tipping the scale toward DCM.]*
+* *[Visual: Two-stage balance scale animation. Stage 1 shows 'TTNtv' alone slightly tipping toward 'Risk' (labeled 'Vulnerability / Compensated State'). Stage 2 adds a 'Second Hit' (e.g., virus or pregnancy) on the same side, decisively tipping the scale to 'Overt DCM.']*
 * **Supporting Quotes:**
     * "The observation that hearts harboring TTNtv are already alerted with metabolic stress signaling, and that a further increase in metabolic stress might not be compensatable, is consistent with the age-induced onset of DCM in TTNtv-positive individuals".
     * "This leads us to believe that contributions from etiological factors other than TTNtv precipitate towards a DCM phenotype in the background of genetic stress (i.e., TTNtv), and that the required additional stress for the DCM to emerge means that TTN insufficiency alone is unlikely to be the sole cause of DCM".
@@ -182,7 +183,7 @@
 * **Proposed Table:**
 | Exon Location | PSI Score | Proposed PVS1 Strength | Rationale |
 |:--- |:--- |:--- |:--- |
-| A-band | > 90% | PVS1_VeryStrong | Extremely high disease association (OR ≈ 50). |
+| A-band | > 90% | PVS1_VeryStrong | Extremely high disease association (OR ≈ 50); established haploinsufficiency (HI) mechanism. |
 | Distal I-band | > 90% | PVS1_Strong | High disease association (OR ≈ 20-30). |
 | Proximal I-band | > 90% | PVS1_Moderate | Significant OR, but lower than A/distal I-band. |
 | Z-disc / M-band | > 90% | PVS1_Moderate | Significant but lower disease association (OR ≈ 4-5). |
